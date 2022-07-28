@@ -5,6 +5,7 @@ nbconvert
 numpy
 scipy
 matplotlib
+astropy
 arviz
 corner
 numpyro
