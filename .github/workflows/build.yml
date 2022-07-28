@@ -1,0 +1,13 @@
+name: Build post
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  build:
+    uses: dfm-io/template/.github/workflows/post.yml@main
+    with:
+      python-version: "3.10"
