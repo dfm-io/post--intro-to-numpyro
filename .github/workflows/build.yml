@@ -6,9 +6,6 @@ on:
       - main
   pull_request:
 
-env:
-  XLA_FLAGS: "--xla_force_host_platform_device_count=2"
-
 jobs:
   build:
     uses: dfm-io/template/.github/workflows/post.yml@main
