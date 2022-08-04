@@ -1,0 +1,13 @@
+notebook
+jupyter
+ipykernel
+nbconvert
+numpy
+scipy
+matplotlib
+astropy
+arviz
+corner
+numpyro
+git+https://github.com/dfm/numpyro-ext.git@8a777010e2b4eb135493cf984b8a9a40e2d99a90#egg=numpyro-ext
+gaiadr3-zeropoint
